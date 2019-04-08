@@ -10,5 +10,9 @@ puts " "
 #display the board
 display_board(board)
 turn(board)
+<<<<<<< HEAD
 
 
+=======
+display_board(board)
+>>>>>>> db58e6410cb149360c4c7b1c481e2b22779d898a

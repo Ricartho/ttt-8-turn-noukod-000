@@ -42,13 +42,20 @@ def valid_move?(board,index)
 
 #make the action after verifying 
 def turn(board)
+<<<<<<< HEAD
   puts "Please enter 1-9:"
+=======
+  puts "Please enter 1-9 : "
+>>>>>>> db58e6410cb149360c4c7b1c481e2b22779d898a
   user_input = gets.strip
   index = input_to_index(user_input)
   if valid_move?(board,index) == true
     move(board,index)
+<<<<<<< HEAD
     display_board(board)
   else
     turn(board)
+=======
+>>>>>>> db58e6410cb149360c4c7b1c481e2b22779d898a
   end 
 end
